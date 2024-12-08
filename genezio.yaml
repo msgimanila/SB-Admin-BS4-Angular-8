@@ -1,0 +1,12 @@
+frontend:
+    path: .
+    publish: dist
+    scripts:
+        build:
+            - npm run build
+        deploy:
+            - npm install
+    subdomain: sb-admin-angular15-bs5
+name: sb-admin-angular15-bs5
+region: us-east-1
+yamlVersion: 2
